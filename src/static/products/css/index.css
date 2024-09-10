@@ -1,0 +1,59 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 5px;
+}
+
+.table table {
+	display: table;
+	table-layout: auto;
+	font-size: 18px;
+	border-collapse: collapse;
+	border: 2px solid #000000;
+}
+
+
+.table th {
+	font-weight: bold;
+	background: #b1afaf;
+	padding: 5px;
+	border: 2px solid #000000;
+}
+
+.table td {
+	padding: 6px;
+	text-align: center;
+	border: 1px solid #000000;
+}
+
+.table tbody tr:nth-child(odd){
+	background: #fff;
+}
+.table tbody tr:nth-child(even){
+	background: #f6fadf;
+}
+
+.form {
+    margin: 0 20vw;
+    padding: 5px;
+}
+
+.form form{
+	display: flex;
+	flex-direction: column;
+}
+
+.form form * {
+    margin-bottom: 10px;
+}
+
+.form form label {
+    margin-bottom: 0;
+}
+
+.error h4{
+	display: flex;
+	justify-content: center;
+	color: red;
+}
