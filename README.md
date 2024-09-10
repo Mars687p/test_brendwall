@@ -6,5 +6,5 @@
 5. python3 manage.py runserver
 
 Маршруты API:
-# 127.0.0.1:8000/api/v1/products/ - просмотр продуктов
-# 127.0.0.1:8000/api/v1/products/create/ - создание(метод POST)
+# https://127.0.0.1:8000/api/v1/products/ - просмотр продуктов
+# https://127.0.0.1:8000/api/v1/products/create/ - создание(метод POST)
